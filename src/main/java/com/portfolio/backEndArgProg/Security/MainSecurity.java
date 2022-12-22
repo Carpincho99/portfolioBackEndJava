@@ -61,9 +61,9 @@ public class MainSecurity {
 
         http.addFilterBefore(jwtTokenFilter(), UsernamePasswordAuthenticationFilter.class);
 
-        http.cors();
         return http.build();
 
     }
+    
 
 }
