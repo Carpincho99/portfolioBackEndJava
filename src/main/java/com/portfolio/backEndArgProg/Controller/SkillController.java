@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/skill")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin
 public class SkillController {
     @Autowired
     SkillService skillServ;

@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/educ")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin
 public class EducController {
     @Autowired
     EducService educServ;
