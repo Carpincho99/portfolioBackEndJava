@@ -4,7 +4,6 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.validation.constraints.Size;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -15,7 +14,6 @@ public class Skill {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
         
-    @Size(min=1, message="[ERROR] MinLenght")
     private int porcentaje;
     private String icon;
 
