@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/exp")
-@CrossOrigin
+@CrossOrigin(origins = "https://portfolioargprogramafrontend.web.app/")
 public class ExpController {
     @Autowired
     ExpService expServ;
