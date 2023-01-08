@@ -1,3 +1,4 @@
+/*
 package com.portfolio.backEndArgProg;
 
 import org.springframework.context.annotation.Configuration;
@@ -14,3 +15,5 @@ public class CorsConfig implements WebMvcConfigurer {
         registry.addMapping("/**");
     }
 }
+
+*/
