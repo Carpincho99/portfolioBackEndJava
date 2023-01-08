@@ -1,4 +1,6 @@
 FROM amazoncorretto:17-alpine-jdk
-MAINTAINER ezequiel_giorgis
-COPY ./target/backEndArgProg-0.0.1-SNAPSHOT.jar backEndArgProg-0.0.1-SNAPSHOT.jar
-ENTRYPOINT ["java","-jar","backEndArgProg-0.0.1-SNAPSHOT.jar"]
+RUN addgroup -S spring && adduser -S spring -G spring
+USER spring:spring
+ARG JAR_FILE=target/*.jar
+COPY ${JAR_FILE} app.jar
+ENTRYPOINT ["java","-jar","/app.jar"]
