@@ -12,6 +12,7 @@ com/portfolio/backEndArgProg/Security/Repository/iUsuarioRepository.class
 com/portfolio/backEndArgProg/Repository/SkillRepository.class
 com/portfolio/backEndArgProg/Security/Entity/Rol.class
 com/portfolio/backEndArgProg/Security/Repository/iRolRepository.class
+com/portfolio/backEndArgProg/CorsConfig.class
 com/portfolio/backEndArgProg/Entity/Exp.class
 com/portfolio/backEndArgProg/Dto/dtoSkill.class
 com/portfolio/backEndArgProg/Security/jwt/JwtTokenFilter.class
