@@ -1,4 +1,4 @@
-FROM amazoncorretto:17-alpine-jdk
-MAINTAINER ezeG
-COPY target/backEndArgProg-0.0.1-SNAPSHOT.jar backEndArgProg-0.0.1-SNAPSHOT.jar
+FROM amazoncorretto:17
+MAINTAINER eze
+COPY ./target/backEndArgProg-0.0.1-SNAPSHOT.jar backEndArgProg-0.0.1-SNAPSHOT.jar
 ENTRYPOINT ["java","-jar","/backEndArgProg-0.0.1-SNAPSHOT.jar"]
