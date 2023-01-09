@@ -1,3 +1,4 @@
+/*
 package com.portfolio.backEndArgProg;
 
 import org.springframework.context.annotation.Configuration;
@@ -15,7 +16,7 @@ public class CorsConfig implements WebMvcConfigurer {
     }
 }
 
-/*
+
 import org.springframework.context.annotation.Configuration;
 
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
